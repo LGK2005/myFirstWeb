@@ -27,11 +27,13 @@ footer{
     width: 25%;
 }
 
-div{
-    display: inline-block;
-    margin-left: 7%;
-    margin-right: 5%;
+#ChuyenNganhContent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 p{
@@ -61,4 +63,13 @@ h3{
 #Nganhdaotao{
     text-align: center;
     font-size: 200%;
+}
+
+#ChuyenNganh {
+    width: 765px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
 }

@@ -3,7 +3,8 @@
     <head>
         <title>FPT University</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <script src="js/script.js"></script>
     </head>
 
     <body>
@@ -25,27 +26,33 @@
                     <li>8,3 TRIỆU ĐÔNG / THÁNG LÀ MỨC LƯƠNG TRUNG BÌNH</li>
                 </ul>
             </article>
-
-            <article>
+            
+            <hr width="100%" size = 2>
+            
                 <p id="Nganhdaotao"><strong>NGÀNH ĐÀO TẠO</strong></p>
-                <div>
-                    <p>CÔNG NGHỆ THÔNG TIN </p>
-                    <img src = "images/course_8.png" alt = "Công nghệ thông tin" width="150">
+                <div id="ChuyenNganhContent">
+                    <div id="cntt" onmouseover="upDate('images/cntt.jpg')" onmouseout="unDo()">
+                        <p><b>CÔNG NGHỆ THÔNG TIN</b></p>
+                        <img src = "images/course_8.png" alt = "Công nghệ thông tin" width="150">
+                    </div>
+                    <div id="qtkd" onmouseover="upDate('images/qtkd.jpeg')" onmouseout="unDo()">
+                        <p><b>QUẢN TRỊ KINH DOANH</b></p>
+                        <img src = "images/course_11056.png" alt = "Quản trị kinh doanh" width="150">
+                    </div>
+                    <div id="nna" onmouseover="upDate('images/nna.jpeg')" onmouseout="unDo()">
+                        <p><b>NGÔN NGỮ ANH</b></p>
+                        <img src = "images/course_27.png" alt = "Ngôn ngữ Anh" width="150">
+                    </div>
+                    <div id="nnn" onmouseover="upDate('images/nnn.jpg')" onmouseout="unDo()">
+                        <p><b>NGÔN NGỮ NHẬT</b></p>
+                        <img src = "images/course_28.png" alt = "Ngôn ngữ Nhật" width="150">
+                    </div>
                 </div>
-                <div>
-                    <p>QUẢN TRỊ KINH DOANH</p>
-                    <img src = "images/course_11056.png" alt = "Quản trị kinh doanh" width="150">
-                </div>
-                <div>
-                    <p>NGÔN NGỮ ANH</p>
-                    <img src = "images/course_27.png" alt = "Ngôn ngữ Anh" width="150">
-                </div>
-                <div>
-                    <p>NGÔN NGỮ NHẬT</p>
-                    <img src = "images/course_28.png" alt = "Ngôn ngữ Nhật" width="150">
-                </div>
-                <h3><i><a href = "https://daihoc.fpt.edu.vn/">ĐĂNG KÝ NGAY</a></i></h3>
-            </article>
+            <div id="ChuyenNganh">
+            </div>
+            
+            <h3><i><a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">ĐĂNG KÝ NGAY</a></i></h3>
+            
             <div id="video">
                 <iframe src = "https://www.youtube.com/embed/VuPb3rjXXAs" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
