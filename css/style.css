@@ -42,6 +42,7 @@ p{
 
 li{
     width: auto;
+    font-size: 1.5rem;
 }
 
 iframe{
@@ -52,16 +53,17 @@ iframe{
 
 h3{
     text-align: center;
-    margin: 50px;
+    margin: 10%;
 }
 
 a{
+    font-size: .7em;
     color: white;
     border-radius: 25px;
     background: #fc8210;
-    padding: 20px;
-    width: 200px;
-    height: 150px;
+    padding: 5%;
+    width: 20%;
+    height: 15%;
 }
 
 a:hover {
@@ -72,7 +74,6 @@ a:hover {
 #video{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 #Nganhdaotao{
@@ -89,4 +90,27 @@ a:hover {
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.address{
+    font-size: 1em;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+@media (max-width: 450px){
+    li{
+        font-size: .5rem;
+    }
+
+    #Nganhdaotao{
+        text-align: center;
+        font-size: 100%;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
 }
